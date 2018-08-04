@@ -1,0 +1,36 @@
+﻿Public Class MBox
+
+#Region " Border Less Form Move"
+    Private mouseOffset As Point
+
+    Private Sub Panel1_MouseDown(sender As System.Object, e As System.Windows.Forms.MouseEventArgs) Handles Panel1.MouseDown
+        mouseOffset = New Point(-e.X, -e.Y)
+    End Sub
+
+    Private Sub Panel1_MouseMove(sender As System.Object, e As System.Windows.Forms.MouseEventArgs) Handles Panel1.MouseMove
+        If e.Button = Windows.Forms.MouseButtons.Left Then
+            Dim mousePos As Point = Control.MousePosition
+            mousePos.Offset(mouseOffset.X, mouseOffset.Y)
+            Location = mousePos
+        End If
+    End Sub
+#End Region
+
+#Region " Form Load "
+    Private Sub MBox_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        Try
+            If My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\UAA\Config", "Top", "") Then
+                Panel1.BackColor = ColorTranslator.FromHtml(My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\UAA\Config", "Top", ""))
+            End If
+        Catch ex As Exception
+        End Try
+    End Sub
+#End Region
+
+#Region " Button Click"
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        Process.GetCurrentProcess.Kill()
+    End Sub
+#End Region
+
+End Class
