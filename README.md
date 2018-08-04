@@ -24,11 +24,11 @@ Features
 
 Include
 =======
-7z
-ApkShellext2
-Apktool
-Baksmali / smali
-Dex2jar
+01. 7z
+02. ApkShellext2
+03. ApktoolCRLF
+Baksmali / smaliCRLF
+Dex2jarCRLF
 JD-GUI
 Signapk , testkey.pk8, testkey.x509.pem
 aapt
