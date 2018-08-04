@@ -1,11 +1,9 @@
 Description
 ===========
-
 UAA (Ultimate Advanced Apktool) is an open source (GPLv3) Android and Java decompiler, recompiler, modifed etc. All In One GUI written in VB.NET.
 
 Features
 ========
-
 01. Drag & drop support
 02. View app permissions
 03. Quick decompile, recompile, sign, zipalign, install framework, deodex, deodex ART
@@ -26,12 +24,30 @@ Include
 =======
 01. 7z
 02. ApkShellext2
-03. ApktoolCRLF
-Baksmali / smaliCRLF
-Dex2jarCRLF
-JD-GUI
-Signapk , testkey.pk8, testkey.x509.pem
-aapt
-fernflower
-oat2dex
-zipalig
+03. Apktool
+04. Baksmali / smali
+05. Dex2jarCRLF
+06. JD-GUI
+07. Signapk , testkey.pk8, testkey.x509.pem
+08. aapt
+09. fernflower
+10. oat2dex
+11. zipalig
+
+Requirment
+==========
+Java jre 1.8, .NET framework Runtime v4.0.30319
+
+Compile Requirment
+==================
+MS Visual Studio 2012, .NET framework Runtime v4.0.30319
+
+Credits
+=======
+7z : Igor Pavlov
+ApkShellext2 : kkguo
+Apktool : Ryszard Wisniewski, Connor Tumbleson
+Baksmali / smali : Ben Gruver
+Dex2jar : Bob Pan
+oat2dex : Softdx
+etc.
