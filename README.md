@@ -44,10 +44,10 @@ MS Visual Studio 2012, .NET framework Runtime v4.0.30319
 
 Credits
 =======
-7z : Igor Pavlov
-ApkShellext2 : kkguo
-Apktool : Ryszard Wisniewski, Connor Tumbleson
-Baksmali / smali : Ben Gruver
-Dex2jar : Bob Pan
-oat2dex : Softdx
-etc.
+01. 7z : Igor Pavlov
+02. ApkShellext2 : kkguo
+03. Apktool : Ryszard Wisniewski, Connor Tumbleson
+04. Baksmali / smali : Ben Gruver
+05. Dex2jar : Bob Pan
+06. oat2dex : Softdx
+07. etc.
