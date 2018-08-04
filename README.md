@@ -1,6 +1,6 @@
 Description
 ===========
-UAA (Ultimate Advanced Apktool) is an open source (GPLv3) Android and Java decompiler, recompiler, modifed etc. All In One GUI written in VB.NET.
+UAA (Ultimate Advanced Apktool) is an open source (GPLv3) Android and Java decompiler, recompiler, modified etc. All In One GUI written in VB.NET.
 
 Features
 ========
@@ -34,11 +34,11 @@ Include
 10. oat2dex
 11. zipalig
 
-Requirment
+Requirement
 ==========
 Java jre 1.8, .NET framework Runtime v4.0.30319
 
-Compile Requirment
+Compile Requirement
 ==================
 MS Visual Studio 2012, .NET framework Runtime v4.0.30319
 
