@@ -47,7 +47,7 @@ Credits
 01. 7z : Igor Pavlov
 02. ApkShellext2 : kkguo
 03. Apktool : Ryszard Wisniewski, Connor Tumbleson
-04. Baksmali / smali : Ben Gruver
+04. Baksmali / smali : JesusFreke
 05. Dex2jar : Bob Pan
 06. oat2dex : Softdx
 07. etc.
